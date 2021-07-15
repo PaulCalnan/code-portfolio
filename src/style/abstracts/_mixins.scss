@@ -69,13 +69,12 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color:transparent; 
+    color:transparent;
   }
 }
 
 @mixin supportIE11 { // Provide your basic styles to support IE11
-  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     @content;
   }
 }
-

@@ -20,12 +20,16 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  background: url("/src/assets/birds.jpg");
+  background-repeat: no-repeat;
+  background-position: 8px right ;
+  background-size: 120%;
+
+
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
+    background-position: bottom;
   }
 
   .hero-title {
